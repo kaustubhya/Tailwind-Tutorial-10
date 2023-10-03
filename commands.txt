@@ -1,0 +1,3 @@
+♦ npx tailwindcss init (filename) --full 
+
+Create a custom conf file

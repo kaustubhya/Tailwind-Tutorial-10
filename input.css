@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
+
+.componentsafter {
+    /* after the @layer components layer */
+    text-align: center;
+}
+
+@layer components { 
+    /*  comes after the components layer */
+    .btn {
+        @apply text-white font-bold bg-red-700 rounded-xl px-2 py-1;
+      }
+    
+
+}
+
 @tailwind utilities;
+
